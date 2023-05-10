@@ -1,2 +1,1 @@
-# FullStackDevelopmentLearning
 Learning materials
