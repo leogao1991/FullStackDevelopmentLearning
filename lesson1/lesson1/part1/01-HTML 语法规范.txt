@@ -1,7 +1,10 @@
 <html> 
    <head></head>
-   <body></body>
+   <body>
+      W3Cschools:  https://www.w3schools.com/
+      MDN: https://developer.mozilla.org/en-US/docs/Web
+   </body>
 </html>
-
+   
 
 <br />
