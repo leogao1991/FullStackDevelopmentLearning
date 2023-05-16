@@ -6,5 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>input 表单元素</title>
   </head>
-  <body></body>
+  <body>
+    <form action="" method="get">
+      <p>Name: <input type="text" name="name" id=""></p>
+      <input type="password" name="pass" id="pwd" size="20">
+       <p>
+        <input type="submit" value="submit" name="button">
+        <input type="reset" value="reset" name="reset">
+       </p>
+       <input type="radio" name="gen" id="male" value="male"> male
+       <input type="radio" name="gen" id="female" value="female"> female
+    </form>
+
+    <form action="" method="post" enctype="">
+      <p>
+        <input type="file" name="files"/>
+        <input type="submit" value="upload" name="upload">
+      </p>
+      <input type="checkbox" name="hobby" id="fishing" /> reading
+      <input type="checkbox" name="hobby" id="reading" /> reading
+      <input type="checkbox" name="hobby" id="traveling" checked/> traveling
+    </form>
+
+
+    <!-- in the real development, we use post method to submit the form data -->
+    <!-- input attributes: type ; name; value; size;  maxlength; checked  -->
+    <!-- type: 指定元素的类型 test, password, checkbox, radio, submit, reset, file, hidden, image, 
+    name: value 元素的初始值， type为radio时必须指定一个值。 
+    value: 元素的初始值， type为radio时必须指定一个值。 
+    size: 指定表单元素的初始宽度， 当type为text或 password时， 表单元素的大小以字符为氮素， 低于其他类型， 宽度以像素为单位。 
+    maxlength: type 为text 或 password时， 输入的最大字符数。 
+    checked: type为radio 或 checkbox 时， 指定按钮是否被选中。 -->
 </html>

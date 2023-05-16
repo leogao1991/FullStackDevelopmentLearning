@@ -6,7 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>表单域(了解)</title>
   </head>
-  <body>
-    <form></form>
+  <body> 
+    <!-- all input must finish the form  -->
+    <!-- input is a single tag -->
+    <form action="demo.php" method="post">
+      username: <input type="text" name="username" autocomplete="off" maxlength="20" required placeholder="please type the username">
+      <!-- requiired must type -->
+      <br />
+      password: <input type="password" name="pwd" id="pwd">
+      <br/>
+      gender: 
+      <!-- radio, checkbox 都需要同样的name值， 都可以设置checked -->
+      male <input type="radio" name="gender" value="male">
+      female <input type="radio" name="gender" value="female" >
+      <br/>
+      hobby: 
+      fishing <input type="checkbox" name="hobby" value="fishing">
+      reading <input type="checkbox" name="hobby" value="reading">
+      traveling <input type="checkbox" name="hobby" value="fishing" checked>
+      <br/>
+     <input type="submit" value="register">
+     <input type="reset" value="reset">
+     <input type="button" value="verify">
+     <br/>
+     upload: <input type="file" name="" id="">
+    </form>
   </body>
 </html>
